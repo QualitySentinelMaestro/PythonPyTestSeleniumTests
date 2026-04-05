@@ -1,0 +1,47 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# === Virtual Environments ===
+.venv/
+venv/
+env/
+ENV/
+lib/
+bin/
+pyvenv.cfg
+
+# === Secrets & Config ===
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.py
+config_local.py
+
+# === Testing ===
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+# === IDEs ===
+.vscode/
+.idea/
+*.iml
+/shelf/
+/workspace.xml
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs & Output ===
+*.log
+temp/
+output/
+generated_messages.json
